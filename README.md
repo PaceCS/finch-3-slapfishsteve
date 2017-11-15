@@ -18,8 +18,10 @@ wait(1000);
 finch.setWheelPower(0, 0);
 ```
 
+3. **Back and Forth pt. 2** - Change the values around for the Finch's back and forth motion.
+
+
 2. **Circles** - Have the Finch turn left and right by applying power only to one wheel.
 
-3. **Back and Forth pt. 2** - Change the values around for the Finch's back and forth motion.
 
 3. **Maze Runner** - Create a maze and have the Finch successfully navigate it.
