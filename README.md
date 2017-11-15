@@ -1,22 +1,25 @@
-# Finch Sound
+# Finch Move
 
-You will be experimenting with sound using the Finch robot.  
+You will be experimenting with moving the Finch robot around.  
 
-### Understanding Sound
-Different notes are associated with different frequencies of sound.  The higher the frequency, the higher the pitch.  The lower the frequency, the lower the pitch.  
+### Understanding Finch Movement
+The Finch moves by applying power to its wheels.  This is done using `finch.setWheelPower(left, right)` where `left` and `right` represent power to their respective wheels.  This power can be a number from -255 to 255 where negative power corresponds to the wheel going backwards.
 
 ### Coding the Finch
-You will be experimenting with some code to create three different effects.
+You will be experimenting with some code to create different motion.
 
-1. **Tone Swap** - Have the Finch play one tone for a second then switch to the second tone.  The code for this segment is below.  The sample code first plays the tone A4 (440 Hz) then plays the tone A3 (220 Hz).  Try changing the values to see what different tones the Finch can produce.
+1. **Back and Forth** - Have the Finch move forward for 1 second then backwards for 1 second then stop.
 
 ```
-finch.playTone(440, 1000);
+ffinch.setWheelPower(100, 100);
 wait(1000);
-finch.playTone(220, 1000);
+finch.setWheelPower(-100, -100);
 wait(1000);
+finch.setWheelPower(0, 0);
 ```
 
-2. **Play Song** - Have the Finch go play the song in the array **arr**. The timing is given by the array **time**.
+2. **Circles** - Have the Finch turn left and right by applying power only to one wheel.
 
-3. **Sound & Light Show** - Create your own custom light show, but this time add sound to it.
+3. **Back and Forth pt. 2** - Change the values around for the Finch's back and forth motion.
+
+3. **Maze Runner** - Create a maze and have the Finch successfully navigate it.

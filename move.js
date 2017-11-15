@@ -7,23 +7,38 @@ let finch = new Finch();
 // -----------------------------------------------
 // Don't change anything above the line
 
-// Our first set of code will play one note,, wait 1 second, then play a different note
-finch.playTone(440, 1000);
+// Our first set of code will make the Finch move forward w/ a power of 100 in each wheel for 1 second then move backwards with the same power
+finch.setWheelPower(100, 100);
 wait(1000);
-finch.playTone(220, 1000);
+finch.setWheelPower(-100, -100);
 wait(1000);
+finch.setWheelPower(0, 0);
 
-// Play a song
-// Write your code here to play a song.  The array arr has the frequencies you will need to play
-// The timing for each note is stored in the time array
-const arr = [329.6, 293.7, 261.6, 293.7, 329.6, 329.6, 329.6, 293.7, 293.7, 293.7, 329.6, 392, 392, 329.6, 293.7, 261.6, 293.7, 329.6, 329.6, 329.6, 329.6, 293.7, 293.7, 329.6, 293.7, 261.6];
-const time = [1000,1000,1000,1000,1000,1000,2000,1000,1000,2000,1000,1000,2000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000]
+// Have the Finch repeat the motion of moving back and forth 3 more times
 
 
 
+// Now make the Finch turn to the right for half a second
 
-// Create a sound & light show
-// Write your own code here to create a light show of your choosing
+
+
+// Now make the Finch turn to the left for half a second
+
+
+
+// Now make the Finch turn to the right for half a second but make it turn more quickly than before
+
+
+
+// Now make the Finch turn to the left for half a second but make it turn more quickly than before
+
+
+
+// Now create a maze with at least two turns and have the Finch follow that path
+
+
+
+
 
 
 
