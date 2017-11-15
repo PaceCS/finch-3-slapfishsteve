@@ -9,7 +9,6 @@ The Finch moves by applying power to its wheels.  This is done using `finch.setW
 You will be experimenting with some code to create different motion.
 
 1. **Back and Forth** - Have the Finch move forward for 1 second then backwards for 1 second then stop.
-
 ```
 finch.setWheelPower(100, 100);
 wait(1000);
@@ -17,11 +16,8 @@ finch.setWheelPower(-100, -100);
 wait(1000);
 finch.setWheelPower(0, 0);
 ```
+2. **Back and Forth pt. 2** - Change the values around for the Finch's back and forth motion.
 
-3. **Back and Forth pt. 2** - Change the values around for the Finch's back and forth motion.
+3. **Circles** - Have the Finch turn left and right by applying power only to one wheel.
 
-
-2. **Circles** - Have the Finch turn left and right by applying power only to one wheel.
-
-
-3. **Maze Runner** - Create a maze and have the Finch successfully navigate it.
+4. **Maze Runner** - Create a maze and have the Finch successfully navigate it.
