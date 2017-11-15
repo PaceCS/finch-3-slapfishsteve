@@ -11,7 +11,7 @@ You will be experimenting with some code to create different motion.
 1. **Back and Forth** - Have the Finch move forward for 1 second then backwards for 1 second then stop.
 
 ```
-ffinch.setWheelPower(100, 100);
+finch.setWheelPower(100, 100);
 wait(1000);
 finch.setWheelPower(-100, -100);
 wait(1000);
